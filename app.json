@@ -22,13 +22,5 @@
     {
       "url": "heroku/nodejs"
     }
-  ],
-  "env": {
-    "CLOUDINARY_URL": {
-      "description": "Cloudinary URL if not provided by addon installation"
-    },
-    "SENTRY_DSN": {
-      "description": "Sentry DSN application monitoring"
-    }
-  }
+  ]
 }
