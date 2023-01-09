@@ -7,9 +7,9 @@ Secret Keys are not provided in the repo by default to make sure you don't accid
 </a>
 
 ```
-heroku config:set APP_KEYS=$(openssl rand -base64 32)
-heroku config:set API_TOKEN_SALT=$(openssl rand -base64 32)
-heroku config:set ADMIN_JWT_SECRET=$(openssl rand -base64 32)
+heroku config:set APP_KEYS=$(openssl rand -base64 32) \
+heroku config:set API_TOKEN_SALT=$(openssl rand -base64 32) \
+heroku config:set ADMIN_JWT_SECRET=$(openssl rand -base64 32) \
 heroku config:set JWT_SECRET=$(openssl rand -base64 32)
 ```
 
