@@ -10,7 +10,13 @@
     "autoscaling"
   ],
   "repository": "https://github.com/123-Dyno/publishing-strapiv4-heroku",
-  "addons": ["heroku-postgresql:mini", "cloudinary", "d123", "sentry", "cms"],
+  "addons": [
+    "heroku-postgresql:mini",
+    "cloudinary",
+    "d123",
+    "sentry",
+    "heroku-redis:mini"
+  ],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
