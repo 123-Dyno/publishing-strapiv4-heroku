@@ -13,7 +13,7 @@ heroku config:set ADMIN_JWT_SECRET=$(openssl rand -base64 32) \
 heroku config:set JWT_SECRET=$(openssl rand -base64 32)
 ```
 
-Open up your Heroku app and start using Strapi, sometimes it takes a few seconds to load initially.
+Open up your Heroku app and start using Strapi via `/admin`, sometimes it takes a few seconds to load initially.
 
 ## General Purpose Strapi Heroku Button
 
