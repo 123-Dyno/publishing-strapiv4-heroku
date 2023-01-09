@@ -1,4 +1,4 @@
-# Two Step Install on Heroku
+# Two Step Bootstraped Strapi Install on Heroku
 
 Secret Keys are not provided in the repo by default to make sure you don't accidently deploy a vunerable instance, click the button below to install then run the following commands.
 
@@ -15,21 +15,21 @@ heroku config:set JWT_SECRET=$(openssl rand -base64 32) --app <heroku-app-name>
 
 Open up your Heroku app and start using Strapi via `/admin`, sometimes it takes a few seconds to load initially.
 
-## General Purpose Strapi Heroku Button
+## More Info: General Purpose Strapi Heroku Button
 
 [Strapi](https://strapi.io/) is an open sources headless CMS that can be used for many things (originally it was to bootstrap an API) but is used as a highly extendable content management system. The repo was created as an open source way to published simple content streams like Feeds, Blog Posts, and System Status in less than 10 minutes.
 
 ![Strapi Screenshot](/strapi-heroku-button-screenshot.png "Strapi Screenshot")
 
-This Strapi button is running [123 Dyno's](https://www.123dyno.com) Blog and System Status Feeds, some of the endpoints below.
+This Strapi button is running [123 Dyno's Blog](https://www.123dyno.com/blog) and [System Status Feeds](https://www.123dyno.com/system-status), some of the endpoints below.
 
 https://strapi.123dyno.com/api/articles
 
-https://strapi.123dyno.com/api/articles?populate=\*
+[https://strapi.123dyno.com/api/articles?populate=\*](https://strapi.123dyno.com/api/articles?populate=*)
 
 https://strapi.123dyno.com/api/status-feeds
 
-Strapi gets conservatively 800 req/s before maxing out CPU on Heroku Standard-1x Dynos, better performance on dedicated Performance Dynos [more info on CPU scaling here](https://staging.123dyno.com/blog/cpu-autoscaling-on-heroku-with-123-dyno).123 Dyno is a Heroku autoscaling add-on that provides a DevOps tools, a speed boost, and the ability to autoscale by CPU, memory, and improved response times.
+Strapi gets conservatively 800 req/s before maxing out CPU on Heroku Standard-1x Dynos, better performance on dedicated Performance Dynos [more info on CPU scaling here](https://staging.123dyno.com/blog/cpu-autoscaling-on-heroku-with-123-dyno). 123 Dyno is a Heroku autoscaling add-on that provides a DevOps tools, a 12x speed boost, and the ability to autoscale by CPU, memory, and improved response times, 123 Dyno is included in the button to autoscale Strapi by CPU.
 
 The button was designed for rapid prototyping and with the ability to scale to production by default. It comes populated with public content endpoints for Article, Author, Category, Feed, Status Feed, User, About, Global, and System Status. If you need multiple feeds you can just click the button again and get a new domain and feed! A microservice content architecture if you want it, for more monolithic extensibility you can look at the dev section below.
 
