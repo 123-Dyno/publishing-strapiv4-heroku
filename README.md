@@ -29,7 +29,7 @@ https://strapi.123dyno.com/api/articles
 
 https://strapi.123dyno.com/api/status-feeds
 
-Strapi gets conservatively 800 req/s before maxing out CPU on Heroku Standard-1x Dynos, better performance on dedicated Performance Dynos [more info on CPU scaling here](https://staging.123dyno.com/blog/cpu-autoscaling-on-heroku-with-123-dyno). 123 Dyno is a Heroku autoscaling add-on that provides a DevOps tools, a 12x speed boost, and the ability to autoscale by CPU, memory, and improved response times, 123 Dyno is included in the button to autoscale Strapi by CPU.
+Strapi gets conservatively 800 req/s before maxing out CPU on Heroku Standard-1x Dynos, better performance on dedicated Performance Dynos [more info on CPU scaling here](https://www.123dyno.com/blog/cpu-autoscaling-on-heroku-with-123-dyno). 123 Dyno is a Heroku autoscaling add-on that provides a DevOps tools, a 12x speed boost, and the ability to autoscale by CPU, memory, and improved response times, 123 Dyno is included in the button to autoscale Strapi by CPU.
 
 The button was designed for rapid prototyping and with the ability to scale to production by default. It comes populated with public content endpoints for Article, Author, Category, Feed, Status Feed, User, About, Global, and System Status. If you need multiple feeds you can just click the button again and get a new domain and feed! A microservice content architecture if you want it, for more monolithic extensibility you can look at the dev section below.
 
