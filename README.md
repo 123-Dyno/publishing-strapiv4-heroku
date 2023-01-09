@@ -41,7 +41,7 @@ To extend and customize this instance with things like new content types and fie
 
 ## Supporting Open Source Strapi
 
-At the current moment Strapi Cloud is in closed beta but does look to provide fully managed and lower cost services when it releases for those interested in a fully cloud managed solution. If you prefer to self host and fully own Strapi, the software comes with a license for use above 5 seats that you can find on their [website](https://strapi.io).
+At the current moment Strapi Cloud is in closed beta but does look to provide fully managed and lower cost services when it releases for those interested in a fully cloud managed solution. If you prefer to self host and fully own Strapi, the software comes with a license for use above 5 seats that you can find on their [website](https://strapi.io), this was initially built off the blog template in the starters section there.
 
 ## Future Wants
 
