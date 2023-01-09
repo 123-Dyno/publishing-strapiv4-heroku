@@ -1,0 +1,205 @@
+{
+  "global": {
+    "siteName": "Strapi Snapshot",
+    "defaultSeo": {
+      "metaTitle": "Strapi Snapshot",
+      "metaDescription": "A publishing platform, blog made with Strapi Headless CMS via 1 Click Heroku Button with Cloudinary, Sentry, 123 Dyno, Redis, and Postgres.",
+      "shareImage": null
+    },
+    "siteDescription": "A publishing platform, blog made with Strapi Headless CMS via 1 Click Heroku Button with Cloudinary, Sentry, 123 Dyno, Redis, and Postgres.",
+    "copyright": "One Click Company Publishing",
+    "logo": {
+      "file": "favicon.png"
+    },
+    "favicon": {
+      "file": "favicon.png"
+    }
+  },
+  "about": {
+    "title": "This Strapi Blog was designed for one click deployment from Heroku",
+    "blocks": [
+      {
+        "__component": "shared.rich-text",
+        "body": "Strapi is a open source headless CMS that can be used as a modifiable backend for different types of content and applications. This version of Strapi is mean to serve as a single click deployment blog that can be used for publishing purposes immediately via Heroku, the below button installing all necessary infrastructure. I created this after not finding an open source version of headless CMS software that was ready to use to publish content, other services it was necessary to use their tools, keep data on other servers, and other open source solutions weren't as plug and play as I wanted them to be for as something as simple as a posting copy material via headless CMS. \n\nAlong with this I've also been developing 123 Dyno, a Heroku autoscaling add-on that autoscales faster and with more options (CPU, memory, response times) than stock Heroku, so these two things melded fairly well in my mind. A scalable single click Strapi deployment that required no rebuilding of the wheel for posting content via headless CMS. There is another Strapi Heroku button but it sticks to a fairly low level Strapi deployment with a fork necessary and doesn't configure the Heroku add-ons for you. I think that repo is good for forked deployment of Strapi for developers as it was meant to be, but this publishing repo and other single click buttons in the 123 Dyno repo are great for getting typical use cases setup with no mental drain whatsoever.\n\nThis Heroku Button package melds the following packages for instant deployment configured both on Heroku and Strapi:\n\nCloudinary (free) - For the Strapi Media Library\n123 Dyno (free) - Autoscaling, DevOps, & Load Monitoring\nSentry (free) - Application error monitoring and alerts \nPostgres ($5) - Postgresql Database on Heroku mini plan \n\n This in conjunction with the Eco Dynos ($5) will cost $10 to run Strapi per month, with the fast single install and no infrastructure management this is more than worth it in time IMO.  This stack can also grow to production scale with little to no effort only needing upgrades to the Cloudinary account when media space is needed, upgrading Postgres, and turning on autoscaling which 123 Dyno can help with. 123 Dyno offers free load alerting on install for M95 response times over 4000ms, so you'll be alerted when Strapi is being hit too hard and autoscaling needs to be turned on. When you get there, 123 Dyno autoscales faster and more responsively than stock Heroku (5 second intervals vs 60 second intervals), lets you scale on smaller memory dyno's to save more, and gives you complete customizable control to tune your autoscaling to maximum efficiency.\n\nAt the end of it all, this package should be able to handle whatever gets throw at it with little to no maintenance and when you do need to scale it from the Eco size, 123 Dyno will be there to notify you of it and offer options for autoscaling to face traffic head on and easily. For more information on extending this visit the Strapi Docs or the Github ReadMe if you want to extend the included content types. \n\nHappy coding,\nRafael"
+      },
+      {
+        "__component": "shared.media",
+        "file": "coffee-art.jpg"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "name": "Vans",
+      "slug": "vans"
+    },
+    {
+      "name": "Boots",
+      "slug": "boots"
+    },
+    {
+      "name": "Nature",
+      "slug": "nature"
+    },
+    {
+      "name": "News",
+      "slug": "news"
+    },
+    {
+      "name": "Poetry",
+      "slug": "poetry"
+    }
+  ],
+  "status-feed": [
+    {
+      "title": "Maintainence Scheduled",
+      "status": "information",
+      "body": "Just regular maintainence on the drives."
+    }
+  ],
+  "authors": [
+    {
+      "name": "Rafael Ancheta",
+      "email": "me@rafaelancheta.com",
+      "avatar": "rafaelancheta.jpeg"
+    },
+    {
+      "name": "Bookworm",
+      "email": "support@123dyno.com",
+      "avatar": "123-dyno-avatar.png"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Welcome to The Heroku Strapi Deployment",
+      "slug": "welcome-to-the-heroku-strapi-deployment",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "The One Click Production Strapi Deployment on Heroku.",
+      "cover": {
+        "file": "coffee-art.jpg"
+      },
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Start Writing In Open Source Strapi! \n\n Visit /admin to login to your instance and do what you will. This Heroku Button deployment contains Strapiv4, Cloudinary for image hosting and optimzation, 123 Dyno for Dyno DevOps, Autoscaling, and Load Alering, Sentry for Error Alerting, Postgres as a datastore, and Redis for api caching."
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-beans.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        }
+      ]
+    },
+    {
+      "title": "Welcome back!",
+      "slug": "welcome-back",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "All that matters is that you come back",
+      "cover": {
+        "file": "the-van.jpg"
+      },
+      "blocks": [
+        {
+          "__component": "shared.quote",
+          "author": "Yvon Chouinard",
+          "quote": "We outgrew our loyal customer base and increasingly were selling to yuppies, posers, and wanna-bes. These people don't need this shit to get in their Jeep Cherokees and drive to Connecticut for the weekend."
+        }
+      ]
+    },
+    {
+      "title": "Aiguille du Midi",
+      "slug": "aiguille-du-midi",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Just a view of the way up Mont Blanc.",
+      "cover": {
+        "file": "chamonix.jpg"
+      },
+      "blocks": [
+        {
+          "__component": "shared.quote",
+          "author": "Gaston Rébuffat",
+          "quote": "Ambition, to me, has always seemed preferable to memories."
+        }
+      ]
+    },
+    {
+      "title": "Alabama Hills",
+      "slug": "the-alabama-hills",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Outlaws used to live in the Alabama Hills at the base of Mount Whitney.",
+      "cover": {
+        "file": "alabama-hills.jpg"
+      },
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "author": "Thelonius Monk",
+          "quote": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-shadow.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        }
+      ]
+    },
+    {
+      "title": "C'est la vie",
+      "slug": "cest-la-vie",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "The restaurant on the top of Marina Bay Sands SkyPark is named C'est la vie",
+      "cover": {
+        "file": "ce-la-vie.jpg"
+      },
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-shadow.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        }
+      ]
+    }
+  ]
+}

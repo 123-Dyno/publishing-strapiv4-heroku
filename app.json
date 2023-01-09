@@ -1,0 +1,28 @@
+{
+  "name": "Strapi Headless CMS Heroku Button",
+  "description": "Strapi Headless CMS Heroku button ready to scale with image hosting, autoscaling, and monitoring",
+  "keywords": [
+    "strapi",
+    "heroku",
+    "123 Dyno",
+    "text-entries",
+    "headless cms",
+    "autoscaling"
+  ],
+  "repository": "https://github.com/123-Dyno/publishing-strapiv4-heroku",
+  "addons": ["heroku-postgresql:mini", "cloudinary", "d123", "sentry", "cms"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "CLOUDINARY_URL": {
+      "description": "Cloudinary URL if not provided by addon installation"
+    },
+    "SENTRY_DSN": {
+      "description": "Sentry DSN application monitoring"
+    }
+  }
+}

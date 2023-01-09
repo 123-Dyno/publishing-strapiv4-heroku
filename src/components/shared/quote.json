@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_quotes",
+  "info": {
+    "displayName": "Quote",
+    "icon": "indent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    }
+  }
+}
