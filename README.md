@@ -33,7 +33,7 @@ Strapi gets conservatively 800 req/s before maxing out CPU on Heroku Standard-1x
 
 The button was designed for rapid prototyping and with the ability to scale to production by default. It comes populated with common public content endpoints for Article, Author, Category, Feed, Status Feed, User, About, Global, and System Status. If you need multiple feeds you can just click the button again and get a new domain and /feed! A microservice content architecture if you want it, for more monolithic extensibility you can look at the dev section below.
 
-This package also comes with add-ons for Strapi Redis LCU cache, Cloudinary Image Hosting, GraphQL, Senty Error Handling, SEO, and a simple Markdown editor that are all hooked into their respective Heroku add-ons by default, all you have to do is click the button below and generate keys.
+This package also comes with add-ons for Strapi Redis LCU cache, Cloudinary Image Hosting, GraphQL, Senty Error Handling, SEO, and a simple Markdown editor that are all hooked into their respective Heroku add-ons by default.
 
 ## Development
 
