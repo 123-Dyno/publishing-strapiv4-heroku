@@ -1,6 +1,5 @@
 {
   "name": "strapi-heroku-button",
-  "private": true,
   "version": "0.4.0",
   "description": "Strapi Headless CMS Heroku button ready to scale with image hosting, autoscaling, and monitoring",
   "scripts": {
@@ -34,11 +33,8 @@
   "author": {
     "name": "Rafael Ancheta"
   },
-  "strapi": {
-    "uuid": "4c3420eb-26e6-4b4b-aec8-2b67a2759642"
-  },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=16.x.x <=19.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
