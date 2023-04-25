@@ -13,7 +13,7 @@
   "addons": [
     "heroku-postgresql:mini",
     "cloudinary",
-    "d123",
+    "d123:pigeon",
     "sentry",
     "heroku-redis:mini"
   ],
