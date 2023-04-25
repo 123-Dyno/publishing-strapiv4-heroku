@@ -10,13 +10,13 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.5.5",
-    "@strapi/plugin-i18n": "^4.5.5",
-    "@strapi/plugin-sentry": "^4.5.5",
+    "@strapi/plugin-graphql": "^4.6.1",
+    "@strapi/plugin-i18n": "^4.6.1",
+    "@strapi/plugin-sentry": "^4.6.1",
     "@strapi/plugin-seo": "^1.7.7",
-    "@strapi/plugin-users-permissions": "^4.5.5",
-    "@strapi/provider-upload-cloudinary": "^4.5.5",
-    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-users-permissions": "^4.6.1",
+    "@strapi/provider-upload-cloudinary": "^4.6.1",
+    "@strapi/strapi": "4.6.1",
     "better-sqlite3": "7.4.6",
     "fs-extra": "^10.0.0",
     "install": "^0.13.0",
@@ -32,7 +32,7 @@
     "strapi-provider-rest-cache-redis": "^4.2.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Rafael Ancheta"
   },
   "strapi": {
     "uuid": "4c3420eb-26e6-4b4b-aec8-2b67a2759642"
